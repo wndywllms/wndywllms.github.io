@@ -1,0 +1,67 @@
+
+body {
+    margin:0em; padding:1em; font-size:100%;
+    font: verdana, arial, helvetica, sans-serif;
+    color:#111; background-color:white;
+}
+
+#body p {
+    font: verdana, arial, helvetica, sans-serif;
+}
+
+p>img {margin: 5px; padding: 3px; border: solid black 1px}
+a>img {margin: 5px; padding: 3px; background-color: #CCF;
+    border: solid blue 2px}
+.r {float:right}
+.l {float:left}
+
+#body>p {margin:0em;}
+#body>p+p {text-indent:3em;}
+
+a {
+  color:#09c;
+  text-decoration:none;
+  font-weight:600;
+  font-size:1.0em;
+  font-family:verdana, arial, helvetica, sans-serif;
+}
+
+a:link {color:#09c; text-decoration: underline}
+a:visited {color:#07a;}
+a:hover {background-color:#eee;}
+
+#content {
+    padding: 0em 1em 0em 1em;
+    position: absolute; top: 0em; left: 12em; 
+    font:0.8em/2.0em verdana, arial, helvetica, sans-serif;
+    max-width: 60em;
+    z-index: 3;
+}
+
+/* The left-hand side menu */
+
+#navigation { /* position:absolute is good too */
+    position:fixed; top:2em; left:1.6em; padding:0.9em;
+    background-color:#eee; border:1px dashed #999;
+    font:0.8em/1.4em verdana, arial, helvetica, sans-serif;
+    width:8em;
+}
+
+#navigation a {display: block}
+#navigation a:link {color:#09c; text-decoration: underline}
+#navigation a:visited {color:#07a;}
+#navigation a:hover {color:#fff; background-color:#09c;}
+
+/* a small clicky in the bottom left for URL checking */
+
+#validate {
+    position: fixed; bottom: 20px; width: 130px; left: 10px;
+    font-size: xx-small;
+}
+
+#links {font-size: small}
+#links a {display: block}
+
+#datestamp p {font-size: small; text-align: right;
+    background-color: #ddd; font-style: italic }
+

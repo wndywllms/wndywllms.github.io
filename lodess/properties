@@ -1,0 +1,47 @@
+hips_initial_fov     = 0.9161297098179748
+hips_initial_ra      = 158.39
+hips_initial_dec     = 58.24
+creator_did          = ivo://UNK.AUTH/P/LoDeSS_LH
+hips_pixel_bitpix    = -64
+data_pixel_bitpix    = -64
+hips_sampling        = bilinear
+hips_overlay         = mean
+hips_hierarchy       = median
+hips_creator         = WendyWilliams
+#hips_copyright      = Copyright mention of the HiPS
+obs_title            = hips
+#obs_collection      = Dataset collection name
+#obs_description     = Dataset text description
+#obs_ack             = Acknowledgement mention
+#prov_progenitor     = Provenance of the original data (free text)
+#bib_reference       = Bibcode for bibliographic reference
+#bib_reference_url   = URL to bibliographic reference
+#obs_copyright       = Copyright mention of the original data
+#obs_copyright_url   = URL to copyright page of the original data
+#t_min               = Start time in MJD ( =(Unixtime/86400)+40587  or https://heasarc.gsfc.nasa.gov/cgi-bin/Tools/xTime/xTime.pl)
+#t_max               = Stop time in MJD
+#obs_regime          = Waveband keyword (Radio Infrared Optical UV X-ray Gamma-ray)
+#em_min              = Start in spectral coordinates in meters ( =2.998E8/freq in Hz, or =1.2398841929E-12*energy in MeV )
+#em_max              = Stop in spectral coordinates in meters
+hips_builder         = Aladin/HipsGen v11.114
+hips_version         = 1.4
+hips_release_date    = 2022-04-13T10:53Z
+hips_frame           = equatorial
+hips_order           = 6
+hips_order_min       = 0
+hips_tile_width      = 512
+#hips_service_url    = ex: http://yourHipsServer/LoDeSS_LH
+hips_status          = public master clonableOnce
+hips_tile_format     = png fits
+hips_pixel_cut       = -0.03081 0.2253
+hips_data_range      = -2.0E-4 0.0015
+hips_pixel_scale     = 0.001789
+s_pixel_scale        = 0.002222
+dataproduct_type     = image
+moc_sky_fraction     = 0.006042
+hips_estsize         = 863042
+hipsgen_date         = 2022-04-13T10:51Z
+hipsgen_params       = maxthread=10 in=/net/bovenrijn/data1/wwilliams/lba_low/combined_target/hips out=/net/bovenrijn/data1/wwilliams/lba_low/test_hips_latest creator_did=LoDeSS_LH hips_creator=WendyWilliams "hips_data_range=-2E-4 0.0015" "target=158.39 58.24" INDEX TILES PNG GZIP DETAILS
+hips_creation_date   = 2022-04-13T10:51Z
+hipsgen_date_1       = 2022-04-13T10:53Z
+hipsgen_params_1     = maxthread=10 in=/net/bovenrijn/data1/wwilliams/lba_low/combined_target/hips out=/net/bovenrijn/data1/wwilliams/lba_low/test_hips_latest creator_did=LoDeSS_LH hips_creator=WendyWilliams "hips_data_range=-2E-4 0.0015" "target=158.39 58.24" INDEX TILES PNG DETAILS

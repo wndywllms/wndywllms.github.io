@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Sea Shells
+Description: A two-column, fixed-width design.
+Version    : 1.0
+Released   : 20080605
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Wendy Williams</title>
+<meta name="Author" content="Wendy Williams">
+<meta name="Classification" content="public HTML">
+<meta name="description" content="Home page of Wendy Williams">
+<meta name="keywords" content="astronomy, astrophysics, astronomer,masters student, university of cape town, wendy williams, cape town">
+<link href="WWstyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+<!-- start header -->
+<div id="header">
+    <h1><a href="index.html">Wendy Williams</a> </h1>
+    <p> </p>
+</div>
+<!-- end header -->
+<!-- start page -->
+    <div id="page">
+        <div class="bgtop">
+            <div class="bgbtm">
+                <div id="content">
+                    <div class="post">
+                        <h2 class="title"> ASTRON, Dwingeloo, Netherlands</h2>
+                        <div class="entry">
+                            <p> I frequently visit ASTRON</p>
+                        </div>
+                        <!--<div cl<!--ass="entry">
+                            <p><img src="images/pks.PNG" width="224" height="317" /> </p>
+                        </div>--> 
+                        <h2 class="title"> Charlottesville</h2>
+                        <div class="entry">
+                            <p> I spent 2 weeks in November 2011, including Thanksgiving weekend, at NRAO, Charlottesville working with Huib Intema on the reduction of 150 MHz GMRT data covering 30 sq. degrees of the NOAO Bootes deep field.</p>
+                        </div>
+                        <!--<div class="entry">
+                            <p><img src="images/pks.PNG" width="224" height="317" /> </p>
+                        </div>-->
+                        <h2 class="title"> Japan</h2>
+                        <div class="entry">
+                            <p> In November 2010 I attended the "10 years with IRSF" conference held in Nagoya, Japan.</p>
+                        </div>
+                        <div class="entry">
+                            <p><img src="images/JPN.png" width="341" height="256" /> </p>
+                        </div>
+                        <h2 class="title"> Australia</h2>
+                        <div class="entry">
+                            <p> I spent a week in February 2010 observing with the 64m Parkes Radio Telescope in Australia.</p>
+                        </div>
+                        <div class="entry">
+                            <p><img src="images/pks.PNG" width="224" height="317" /> </p>
+                        </div>
+                        <h2 class="title"> California</h2>
+                        <div class="entry">
+                            <p>I spent 6 weeks in September/October 2009 at IPAC/Caltech working on <em>Spitzer</em> data in the Zone of Avoidance.</p>
+                        </div>
+                        <div class="entry">
+                            <p> <img src="images/spitz.png" width="362" height="296" /></p>
+                        </div>
+                        <h2 class="title">Sutherland, South Africa</h2>
+                        <div class="entry">
+                            <p><img class="dac_image" src="images/irsf.PNG" width="240" height="240" align="right" />I have spent numerous weeks in 2009/2010 at Sutherland, South Africa doing near-infrared observations with the IRSF telescope.  </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- start sidebar -->
+                <div id="sidebar">
+                    <ul>
+                        <h2><a href="index.html" accesskey="1" title="">Home</a></h2>
+                        <h2><a href="research.html" accesskey="2" title="">Research</a></h2>
+                        <h2><a href="cv.html" accesskey="3" title="">CV</a></h2>
+                        <h2><a href="courses.html" accesskey="4" title="">Teaching</a></h2>
+                        <h2><a href="travel.html" accesskey="5" title="">Travel</a></h2>
+                        <h2><a href="links.html" accesskey="6" title="">Links</a></h2>
+                        <h2><a href="contact.html" accesskey="7" title="">Contact</a></h2>
+                        </li>
+                    </ul>
+                </div>
+                <!-- end sidebar -->
+                <div style="clear:both">&nbsp;</div>
+            </div>
+        </div>
+    </div>
+<div id="footer">
+    <p>Contact: <a href="mailto:wendy[at]ast.uct.ac.za">wwilliams[at]strw.leidenuniv.nl</a> &nbsp;&bull;&nbsp; Niels Bohrweg 2, 2333 CA Leiden, The Netherlands
+    <br />
+    <p>Based on a design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>
+</div>
+</div>
+</body>
+</html>

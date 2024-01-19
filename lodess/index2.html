@@ -1,0 +1,56 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>LOFAR surveys &mdash; astronomers</title>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial" rel="stylesheet" />
+<link href="/static/default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/static/fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/static/width.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+ <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script> 
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+
+</head>
+
+
+<body>
+<div class="title">
+	  <h2>Tier 1 (wide area) status</h2>
+		</div>
+</div>
+<div id="page" class="container">
+  <div class="content">
+    <p>This page gives access to some information on the current
+      status of the Tier 1 survey. The interactive Aladin window below shows which fields have been imaged and observed; you may turn off the overlays to view the DR1 sky at low or high resolution. Other links allow you to view the table of fields or observations directly.</p>
+	<div id="aladin-lite-div" style="margin:auto;width:80vw;height:80vh;"></div>
+	<link rel="stylesheet" href="https://lofar-surveys.org/static/lotss_aladin/aladin-2018-10-30.min.css" />
+	<link rel="stylesheet" href="https://lofar-surveys.org/static/lotss_aladin/lotss-aladin.css" />
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://lofar-surveys.org/static/lotss_aladin/aladin-2018-10-30.min.js"></script>
+    <script type="text/javascript" src="https://lofar-surveys.org/static/lotss_aladin/lotss-aladin.js"></script>
+    <script>
+      var lotss_options = {
+              survey: "LoTSSDR1",
+              lotss_pointings_url: "https://home.strw.leidenuniv.nl/~wwilliams/lodess/pointings_lodess.json"
+      };
+      var aladin = lotss_aladin('#aladin-lite-div', lotss_options);
+    </script>
+    <h3>Other information</h3>
+    <ul>
+	<li><a href="fields.html">View the table of fields</a></li>
+	<li><a href="observations.html">View the table of
+	    observations</a></li>
+	<li><a href="co-observing.html">Co-observing with LoTSS</a></li>
+	<li><a href="status.html">Old pipeline v2 processing status static image</a></li>
+    </ul>
+  </div>
+</div>
+
+
+</body>
+</html>

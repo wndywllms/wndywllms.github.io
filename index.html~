@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Sea Shells
+Description: A two-column, fixed-width design.
+Version    : 1.0
+Released   : 20080605
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Wendy Williams</title>
+<meta name="Author" content="Wendy Williams">
+<meta name="Classification" content="public HTML">
+<meta name="description" content="Home page of Wendy Williams">
+<meta name="keywords" content="astronomy, astrophysics, astronomer,masters student, university of cape town, wendy williams, cape town">
+<link href="WWstyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+<!-- start header -->
+<div id="header">
+    <h1><a href="index.html">Wendy Williams</a> </h1>
+    <p> </p>
+</div>
+<!-- end header -->
+<!-- start page -->
+    <div id="page">
+        <div class="bgtop">
+            <div class="bgbtm">
+                <!-- start content -->
+                <div id="content">
+                    <div class="post">
+                        <h2 class="title">Introduction</h2>
+                        <div class="entry">
+                            <p> I am a first year PhD student at Leiden Observatory, Leiden University in the Netherlands. I am also partly funded by ASTRON, so spend some of my time in Dwingeloo.
+                            <br />
+                            My research interests cover a wide range of Extragalactic Astronomy, from Large Scale Structure down to the evolution of galaxies. See the Research tab for info on my previous and current research as well as my interests.
+                            </p>  
+                        </div>
+                        <h2 class="title">About Me</h2>
+                        <div class="entry">
+                            <p> I was born and grew up in Edenvale and Germiston, near Johannesburg, but lived in Cape Town for six years. I did my BSc in Physics and Astrophysics at the University of Cape Town, continuing with my Honours as part of the National Astrophysics and Space Science Programme and then onto my MSc in the <a href="www.ast.uct.ac.za">Department of Astronomy</a>, University of Cape Town, South Africa. 
+                            <br />
+                            My love of all things astronomical stems from an early age, although my particular research interests now lie outside our own galaxy. I enjoy teaching and have tutored a number of Astronomy and Mathematics courses at UCT during my time here. I also enjoy doing public outreach and volunteer at the Open Nights held at the South African Astronomical Observatory. 
+                            <br />
+                            </p>  
+                        </div>
+                    </div>
+                </div>
+                <!-- end content -->
+                <!-- start sidebar -->
+                <div id="sidebar">
+                    <ul>
+                        <li><h2><a href="index.html" accesskey="1" title="">Home</a></h2></li>
+                        <li><h2><a href="research.html" accesskey="2" title="">Research</a></h2></li>
+                        <li><h2><a href="cv.html" accesskey="3" title="">CV</a></h2></li>
+                        <h2><a href="contact.html" accesskey="4" title="">Contact</a></h2>
+                        <li><h2><a href="travel.html" accesskey="5" title="">Travel</a></h2></li>
+                        <li><h2><a href="links.html" accesskey="6" title="">Links</a></h2></li>
+                        
+                    </ul>
+
+                </div>
+                <!-- end sidebar -->
+                <div style="clear:both">&nbsp;</div>
+            </div>
+        </div>
+    </div>
+<div id="footer">
+    <p>Contact: <a href="mailto:wendy[at]ast.uct.ac.za">wwilliams[at]strw.leidenuniv.nl</a> &nbsp;&bull;&nbsp; Niels Bohrweg 2, 2333 CA Leiden, The Netherlands
+    <br />
+    <p>Based on a design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>
+    <br />
+<p>
+<!-- hitwebcounter Code START -->
+<a href="" target="_blank">
+<img src="http://hitwebcounter.com/counter/counter.php?page=310908&style=0008&nbdigits=4&type=ip&initCount=0" title="" Alt=""   border="0" >
+</a>
+<br>
+<!-- hitwebcounter.com --><a href="http://www.hitwebcounter.com/" title="Web Counter" 
+target="_blank" style="font-family: Arial, Geneva , Helvetica, sans-serif; 
+font-size: 11px; color: #686A6F; text-decoration: underline ;">
+<strong>Web Counter</strong></a>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+/* this defines the WHOLE web page */
+body {
+    text-align: center;
+    margin:0 auto;
+    padding:1em; 
+    font-size:100%;
+    font-family: georgia, serif;
+    color:#333; background-color:white;
+}
+
+/* centering of the web page is done with:
+ * http://simplebits.com/notebook/2004/09/08/centering/
+ *
+ */
+
+/* general images should have no boxes or margins - so that the Latex
+ * markup is not offset in inline text */
+p>img {margin: 0px; padding: 0px;}
+
+/* add a thin black border around images
+ * use to place the figures in the text
+ * <img src="blah.jpg" class="r" />
+ *
+.r {float:right; margin: 0px 0px 0px 0.5em; padding: 3px; border: solid black 1px}
+.l {float:left; margin: 0px 0.5em 0px 0px; padding: 3px; border: solid black 1px}
+ * */
+.r {float:right; margin: 0px 0px 0px 0.5em; padding: 0px}
+.l {float:left; margin: 0px 0.5em 0px 0px; padding: 0px}
+
+/* The paragraphs themselves, not including h and lists and tables */
+#content>p {
+    margin:0em 0em 1em 0em; 
+    /*
+    background-color: yellow
+    */
+}
+
+a {
+  text-decoration:none;
+  font-size:1.0em;
+  font-family: georgia, serif;
+}
+
+a:link {text-decoration: underline}
+a:visited {text-decoration: underline}
+a:hover {background-color:#eee;}
+
+#content {
+    margin: 0 auto;
+    text-align: left;
+    /*
+    padding: 1em 8em 1em 8em;
+    position: absolute; top: 0em; left: 1em; 
+    */
+    font:1.0em/1.4em georgia, serif;
+    max-width: 50em;
+    min-width: 40em;
+    z-index: 3;
+    /* 
+    background-color: orange;
+    */
+}
+
+#datestamp p {font-size: small; text-align: right;
+    background-color: #ddd; font-style:  georgia, italic }
+
+
+/* code blocks by indention */
+pre {
+    /* from:http://www.longren.org/2006/09/27/wrapping-text-inside-pre-tags/
+    overflow-x: auto; /* Use horizontal scroller if needed; for Firefox 2, not needed in Firefox 3 */
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+     /* width: 99%; */
+    font: 1.2em/1.4em Monospace;
+ width:auto;border:solid #ba6363;
+ background-color:#fad8d8;
+ border-width:.1em .1em .1em .8em;padding:.2em .4em .2em .6em;
+}
+
+#footer { font-size: smaller; font-weight: bold }
+#crumbs { font-size: smaller }
+
+
+/*  from:
+ *  http://linuxtidbits.wordpress.com/2008/11/25/better-lcd-font-rendering/
+ *
+ * red code 
+
+ overflow:auto;width:auto;border:solid #ba6363;
+ background-color:#fad8d8;font-family:'DejaVu Sans Mono',Monospace,Consolas;
+ font-size:.9em;white-space:prewrap;border-width:.1em .1em .1em .8em;padding:.2em .4em .2em .6em;
+
+ *
+ * green code
+
+ overflow:auto;width:auto;border:solid #a7ba63;
+ background-color:#f3fad8;font-family:'DejaVu Sans Mono', Monospace, Consolas;
+ font-size:.9em;white-space:pre;border-width:.1em .1em .1em .8em;padding:.2em .6em;
+
+ *
+ */
+
